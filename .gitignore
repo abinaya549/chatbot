@@ -1,0 +1,4 @@
+echo "venv/" >> .gitignore
+git rm -r --cached venv/
+git add .gitignore
+git commit -m "Ignore virtual environment files"
